@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-font{
+    font-family: 'archia';
+}
+.more-height{
+    height: 600px;
+}
+
+@layer components{
+    .hovering-Effect{
+        @apply relative before:-z-50 before:absolute before:bottom-0 before:w-full before:opacity-70 before:h-0 before:bg-green-400 hover:before:h-[10px] before:transition-[height] before:duration-300 ;
+    }
+}
