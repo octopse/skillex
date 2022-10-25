@@ -681,6 +681,18 @@ video {
   margin-left: -0.25rem;
 }
 
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.ml-36 {
+  margin-left: 9rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
 .flex {
   display: flex;
 }
