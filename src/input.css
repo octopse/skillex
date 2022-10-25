@@ -13,11 +13,11 @@
     font-family: 'archia';
 }
 .more-height{
-    height: 600px;
+    height: 590px;
 }
 /* images general effect */
 .imageeffect{
-    transition: width 600ms ;
+    transition: width 500ms ;
 }
 /* first image */
 .imagescontainer:hover .firstimagetexthide{
